@@ -7,6 +7,7 @@ public class Attendance {
     final int isPresent = 1;
     Random rd = new Random();
     int toCheck = rd.nextInt(2);
+
     public boolean checkAttendance() {
         if (isPresent == toCheck) {
             return true;
